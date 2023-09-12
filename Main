@@ -1,0 +1,61 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Alexshorts", "LightTheme")
+local Tab = Window:NewTab("all scripts")
+local Section = Tab:NewSection("all scripts ")
+Section:NewButton("race mot script ", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0MotoRace'))()
+    print("Clicked")
+end)Section:NewButton("pet race script", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0PetRace'))()
+  print("Clicked")
+end)Section:NewButton("inf win inf stro script ", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/itsnoctural/Utilities/main/Closed/Palm%20Slap%20Friends.lua"))()    
+  print("Clicked")
+end)Section:NewButton("Every Second Get +1 Speed script", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/%2B1Speed'))()    
+  print("Clicked")
+end)Section:NewButton("Cart Ride script", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0CartRide"))()    
+  print("Clicked")
+end)Section:NewButton("Mine Block Tycoon script", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0MineBlock"))()    
+  print("Clicked")
+end)local Tab = Window:NewTab("scripts")local Section = Tab:NewSection("scripts")
+Section:NewButton("Obby But You're on a Pogo Stick script", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0ObbyPogo'))()   
+  print("Clicked")
+end)Section:NewButton("Boxing Clicker Simulator script", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0BoxingClicker'))()   
+  print("Clicked")
+end)
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  Section:NewSlider("walkspeed", "walkspeed",28,28, function(s) -- 500 (MaxValue) | 50 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.infwin = 100
+end)
